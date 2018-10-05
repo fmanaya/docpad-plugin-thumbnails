@@ -65,7 +65,7 @@ module.exports = (BasePlugin) ->
 			imageMagick: false
 			extensions: ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG']
 
-		thumbnailsToGenerate: null  # Object
+		thumbnailsToGenerate: {}  # Object
 		thumbnailsToGenerateLength: 0
 
 		#constructor: ->
